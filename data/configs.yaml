@@ -1,0 +1,11 @@
+# This config file records all parameters used for smart recruit project
+# given this project was developed on Colab, the primary working directory is named "content"
+# please change it correspondingly if desired
+
+data_path: '/content/data'
+output_path: '/content/outputs'
+data_file: '/content/data/data.csv'
+spacy_model: 'en_core_web_md' 
+stopwords_code: 'english'
+custom_stop_words: ['experience', 'knowledge', 'skills', 'ability', 'proficiency', 'expert', 'good', 'advanced', 
+                    'focus', 'reporting', 'tool', 'language', 'job']
